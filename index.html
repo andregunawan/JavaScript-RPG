@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DOTA RPG</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row header">
+			<div class="col-md-12">
+				<img class = "main-header" src="assets/images/logoDota.png">
+			</div>
+		</div>
+<!-- CHOOSE HERO -->
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h3>CHOOSE YOUR HERO</h3>
+			</div>
+		</div>
+		<div class="row heroSelect text-center"></div>
+<!-- CHOOSE ENEMY -->
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h3 id="chooseEnemyH3">CHOOSE YOUR ENEMY</h3>
+			</div>
+		</div>
+		<div class="row enemySelect text-center"></div>
+<!-- BATTLE START -->
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-3 battleLeft text-center"></div>
+			<div class="col-md-3 battleRight text-center"></div>
+			<div class="col-md-3"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 text-right">
+				<img id="attackButton" src="assets/images/attack2.png">
+			</div>
+			<div class="col-md-3 text-center">
+				<img id="chosenEnemy" class="heroSize" src="assets/images/heroes/lunaLeft.png">
+			</div>
+			<div class="col-md-3 text-center">
+				<img id="chosenHero" class="heroSize" src="assets/images/heroes/lunaRight.png">
+			</div>
+			<div class="col-md-3 text-center"></div>
+		</div>
+
+
+
+
+	</div>
+
+
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body {
+	background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    height: auto;
+    width: auto;
+}
+
+.main-header {
+	width: 25%;
+	height: 25%;
+	padding-top: 10px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+}
+
+h3 {
+	font-family: 'cooperplate' !important;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.heroImage {
+	width: 200px;
+	height: 120px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+  	transition: 0.5s;
+	cursor: pointer;
+	border: 2px solid #0b7;
+	-webkit-transition:0.5s;
+}
+
+.heroImage:hover {
+  border: 3px solid red;
+  color: #FFF;
+}
+
+.enemyImage {
+	width: 200px;
+	height: 120px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+  	transition: 0.5s;
+	cursor: pointer;
+	border: 2px solid #0b7;
+	-webkit-transition:0.5s;
+}
+
+.enemyImage:hover {
+  border: 3px solid red;
+  color: #FFF;
+}
+
+h4 {
+	font-family: 'cooperplate' !important;
+	padding-top: 1%;
+	color: white;
+	text-shadow: 2px 2px black;
+	text-transform: uppercase;
+
+}
+
+h5 {
+	font-family: 'cooperplate' !important;
+	font-size: 18px;
+	padding-top: 1%;
+	color: white;
+	text-shadow: 2px 2px black;
+	text-transform: uppercase;
+
+}
+
+.heroSelect, .enemySelect {
+	visibility: visible;
+}
+
+#chooseEnemyH3, #chosenHero, #chosenEnemy {
+	visibility: hidden;
+}
+
+.heroSize {
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+}
+
+#attackButton {
+	visibility: hidden;
+	width: 130px;
+	height: 115px;
+	margin-top: 70px;
+	-webkit-filter: drop-shadow(5px 5px 5px #66ff66);
+  	filter: drop-shadow(5px 5px 5px #66ff66);
+  	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+#attackButton:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px #ff0000);
+  	filter: drop-shadow(5px 5px 5px #ff0000);
+  	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.battleLeft, .battleRight {
+	font-family: 'cooperplate' !important;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	float: bottom;
+	margin-top: 25px;
+	margin-bottom: -15px;
+	text-shadow: 2px 2px black;
+}
+
+
+
