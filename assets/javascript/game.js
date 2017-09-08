@@ -166,10 +166,14 @@ $(document).ready(function()
 	var heroHp;
 	var enemyHp;
 
+	var audio1 = $("#selectHero")[0];
+	var audio2 = $("#sword")[0];
+
 	$(".heroImage").on("click", function () 
 	{
 		chosenHero = $(this).data("id");
 		heroes.chooseEnemy(chosenHero);
+		audio1.play();
 	});
 
 	$(document).on("click", ".enemyImage", function () 
@@ -177,11 +181,13 @@ $(document).ready(function()
 	    chosenEnemy = $(this).data("id");
 	    heroes.battleStart(chosenEnemy, chosenHero);
 	    $(this).css("filter", "grayscale(100%)");
+	    audio1.play();
 	});
 
 	$("#attackButton").on("click", function () 
 		{
 			heroes.attackEnemy(heroHp, enemyHp, chosenHero, chosenEnemy);
+			audio2.play();
 		});
 
 	$(".gameOver").on("click", function () 
