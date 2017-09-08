@@ -89,9 +89,9 @@ h5 {
 
 #attackButton {
 	visibility: hidden;
-	width: 130px;
-	height: 115px;
-	margin-top: 70px;
+	width: 180px;
+	height: 165px;
+	margin-top: 50px;
 	-webkit-filter: drop-shadow(5px 5px 5px #66ff66);
   	filter: drop-shadow(5px 5px 5px #66ff66);
   	opacity: 0.8;
