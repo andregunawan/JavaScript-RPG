@@ -1,6 +1,6 @@
 DOTA 2 RPG GAME
 
-https://andregunawan.github.io/week-4-game/
+https://andregunawan.github.io/JavaScript-RPG/
 
 This RPG game was created by using JQuery, HTML5 and Bootstrap CSS.
 
